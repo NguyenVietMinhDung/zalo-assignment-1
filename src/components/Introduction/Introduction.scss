@@ -1,0 +1,48 @@
+.introduction {
+  color: black;
+  margin-bottom: 1px;
+
+  &__banner {
+    padding-left: -15px;
+    padding-right: -15px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__metadata {
+    background-color: white;
+
+    &__title {
+      display: flex;
+
+      i {
+        margin-right: 5px;
+        margin-top: 1.3em;
+        color: green;
+        font-weight: bold;
+      }
+
+      h3 {
+        margin-bottom: 0;
+      }
+    }
+
+    &__address, &__time {
+      display: flex;
+
+      i {
+        margin-right: 5px;
+        margin-top: 1em;
+        opacity: 0.2;
+        font-weight: bold;
+      }
+
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
