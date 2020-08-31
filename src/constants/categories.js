@@ -5,46 +5,38 @@ export default [
     items: [
       {
         id: 0,
-        name: {
-          vi: 'Latte',
-          en: 'Latte',
-        },
-        price: 60000,
+        name: 'Latte - This is a long text - Please use truncate the text if it is longer than 2 lines',
+        description: 'Note - This text is not longer than 1 line',
+        price: 99000,
+        oldPrice: 90000,
         img: '270_crop_LATTE.png',
       },
       {
         id: 1,
-        name: {
-          vi: 'Cappuccino',
-          en: 'Cappuccino',
-        },
-        price: 60000,
+        name: 'Cappuccino',
+        description: 'Cappuccino',
+        price: 39000,
+        oldPrice: 49000,
         img: '270_crop_CAPPUCINO.png',
       },
       {
         id: 2,
-        name: {
-          vi: 'Americano',
-          en: 'Americano',
-        },
+        name: 'Americano',
+        description: 'Americano',
         price: 60000,
         img: '270_crop_AMERICANO.png',
       },
       {
         id: 3,
-        name: {
-          vi: 'Espresso',
-          en: 'Espresso',
-        },
+        name: 'Espresso',
+        description: 'Espresso',
         price: 60000,
         img: '270_crop_ESPRESSO.png',
       },
       {
         id: 4,
-        name: {
-          vi: 'Caramel Macchiato',
-          en: 'Caramel Macchiato',
-        },
+        name: 'Caramel Macchiato',
+        description: 'Caramel Macchiato',
         price: 60000,
         img: '270_crop_CARAMEL-MACCHIATO.png',
       },
@@ -56,37 +48,29 @@ export default [
     items: [
       {
         id: 0,
-        name: {
-          vi: 'Xíu Mại',
-          en: 'Pork Meatball',
-        },
+        name: 'Xíu Mại',
+        description: 'Pork Meatball',
         price: 19000,
         img: '270_crop_BMXIUMAI.png',
       },
       {
         id: 1,
-        name: {
-          vi: 'Chả Lụa Xá Xíu',
-          en: 'Roast Pork & Pork Sausage',
-        },
+        name: 'Chả Lụa Xá Xíu',
+        description: 'Roast Pork & Pork Sausage',
         price: 19000,
         img: '270_crop_BMCHALUAXAXIU.png',
       },
       {
         id: 2,
-        name: {
-          vi: 'Gà Xé Nước Tương',
-          en: 'Roast Chicken',
-        },
+        name: 'Gà Xé Nước Tương',
+        description: 'Roast Chicken',
         price: 19000,
         img: '270_crop_BMGAXE.png',
       },
       {
         id: 3,
-        name: {
-          vi: 'Thịt Nướng',
-          en: 'Grilled Pork',
-        },
+        name: 'Thịt Nướng',
+        description: 'Grilled Pork',
         price: 19000,
         img: '270_crop_BMTHITNUONG.png',
       },
@@ -98,28 +82,22 @@ export default [
     items: [
       {
         id: 0,
-        name: {
-          vi: 'Bánh Mousse Cacao',
-          en: 'Cocoa Mousse Cake',
-        },
+        name: 'Bánh Mousse Cacao',
+        description: 'Cocoa Mousse Cake',
         price: 29000,
         img: '270_crop_MOUSSECACAO.png',
       },
       {
         id: 1,
-        name: {
-          vi: 'Bánh Mousse Đào',
-          en: 'Peach Mousse Cake',
-        },
+        name: 'Bánh Mousse Đào',
+        description: 'Peach Mousse Cake',
         price: 29000,
         img: '270_crop_MOUSSEDAO.png',
       },
       {
         id: 2,
-        name: {
-          vi: 'Bánh Sô-cô-la Highlands',
-          en: 'Highlands Chocolate Bomb',
-        },
+        name: 'Bánh Sô-cô-la Highlands',
+        description: 'Highlands Chocolate Bomb',
         price: 29000,
         img: '270_crop_SOCOLAHL.png',
       },
@@ -131,37 +109,29 @@ export default [
     items: [
       {
         id: 0,
-        name: {
-          vi: 'Trà Thạch Vãi',
-          en: 'Lychee Tea',
-        },
+        name: 'Trà Thạch Vãi',
+        description: 'Lychee Tea',
         price: 39000,
         img: '270_crop_TRATHACHVAI_1.png',
       },
       {
         id: 1,
-        name: {
-          vi: 'Trà Thạch Đào',
-          en: 'Peach Jelly Tea',
-        },
+        name: 'Trà Thạch Đào',
+        description: 'Peach Jelly Tea',
         price: 39000,
         img: '270_crop_TRATHACHDAO.png',
       },
       {
         id: 2,
-        name: {
-          vi: 'Trà Thanh Đào',
-          en: 'Peach Lemongrass Tea',
-        },
+        name: 'Trà Thanh Đào',
+        description: 'Peach Lemongrass Tea',
         price: 39000,
         img: '270_crop_TRATHANHDAO.png',
       },
       {
         id: 3,
-        name: {
-          vi: 'Trà Sen Vàng',
-          en: 'Golden Lotus Tea',
-        },
+        name: 'Trà Sen Vàng',
+        description: 'Golden Lotus Tea',
         price: 39000,
         img: '270_crop_TRASENVANG.png',
       },
@@ -173,19 +143,15 @@ export default [
     items: [
       {
         id: 0,
-        name: {
-          vi: 'Phin Inox',
-          en: 'Phin Inox',
-        },
+        name: 'Phin Inox',
+        description: 'Phin Inox',
         price: 80000,
         img: '270_crop_PHININOX.png',
       },
       {
         id: 1,
-        name: {
-          vi: 'Ly Sứ Mosaic',
-          en: 'Mosaic Mug',
-        },
+        name: 'Ly Sứ Mosaic',
+        description: 'Mosaic Mug',
         price: 29000,
         img: '270_crop_LYSU.png',
       },

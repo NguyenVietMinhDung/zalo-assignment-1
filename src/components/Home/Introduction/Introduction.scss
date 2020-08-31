@@ -1,0 +1,57 @@
+.introduction {
+	margin-bottom: 1px;
+
+	color: black;
+	background-color: white;
+
+	&__banner {
+		padding-right: -15px;
+		padding-left: -15px;
+
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	&__search-box {
+		margin-top: 10px;
+	}
+
+	&__metadata {
+		&__title {
+			display: flex;
+
+			i {
+				margin-top: 1.3em;
+				margin-right: 5px;
+
+				color: green;
+
+				font-weight: bold;
+			}
+
+			h3 {
+				margin-bottom: 0;
+			}
+		}
+
+		&__address,
+		&__time {
+			display: flex;
+
+			i {
+				margin-top: 1em;
+				margin-right: 5px;
+
+				opacity: 0.2;
+
+				font-weight: bold;
+			}
+
+			p {
+				margin-bottom: 0;
+			}
+		}
+	}
+}

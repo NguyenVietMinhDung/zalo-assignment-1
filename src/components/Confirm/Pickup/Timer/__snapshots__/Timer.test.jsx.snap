@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Timer /> renders correctly 1`] = `
+<Row
+  align="normal"
+  component="div"
+  debug={false}
+  gutterWidth={null}
+  justify="start"
+  nogutter={false}
+  nowrap={false}
+  style={Object {}}
+>
+  <Col
+    className="time"
+    component="div"
+    debug={false}
+    lg={null}
+    md={null}
+    offset={Object {}}
+    pull={Object {}}
+    push={Object {}}
+    sm={null}
+    style={Object {}}
+    width={null}
+    xl={null}
+    xs={12}
+    xxl={null}
+  >
+    <div
+      className="time__icon"
+    >
+      <i
+        className="lni lni-16 lni-timer"
+      />
+    </div>
+    <div
+      className="time__value"
+    >
+      ASAP - 15:30, Hôm nay 30/06
+    </div>
+    <div
+      className="time__modify-btn"
+    >
+      <i
+        className="lni lni-sm lni-chevron-right"
+      />
+    </div>
+  </Col>
+</Row>
+`;

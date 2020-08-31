@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShopSelector /> renders correctly 1`] = `
+<div
+  className="shop-selector"
+>
+  <div
+    data-place="right"
+    data-tip="Bấm vào đây để đổi sang cửa hàng khác"
+  >
+    Đổi cửa hàng khác  
+    <i
+      className="lni lni-chevron-down"
+    />
+  </div>
+  <ReactTooltip
+    clickable={false}
+    insecure={true}
+    resizeHide={true}
+    wrapper="div"
+  />
+</div>
+`;

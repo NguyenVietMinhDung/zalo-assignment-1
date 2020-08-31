@@ -5,7 +5,7 @@ exports[`<Category /> renders correctly 1`] = `
   className="category"
   component="div"
   fluid={false}
-  id="other"
+  id="coffee"
   lg={false}
   md={false}
   sm={false}
@@ -40,33 +40,51 @@ exports[`<Category /> renders correctly 1`] = `
       xxl={null}
     >
       <h3>
-        Khác
+        Cà Phê
       </h3>
     </Col>
   </Row>
   <Product
+    description="Note - This text is not longer than 1 line"
     id={0}
-    img="270_crop_PHININOX.png"
+    img="270_crop_LATTE.png"
     key="0"
-    name={
-      Object {
-        "en": "Phin Inox",
-        "vi": "Phin Inox",
-      }
-    }
-    price={80000}
+    name="Latte - This is a long text - Please use truncate the text if it is longer than 2 lines"
+    oldPrice={90000}
+    price={99000}
   />
   <Product
+    description="Cappuccino"
     id={1}
-    img="270_crop_LYSU.png"
+    img="270_crop_CAPPUCINO.png"
     key="1"
-    name={
-      Object {
-        "en": "Mosaic Mug",
-        "vi": "Ly Sứ Mosaic",
-      }
-    }
-    price={29000}
+    name="Cappuccino"
+    oldPrice={49000}
+    price={39000}
+  />
+  <Product
+    description="Americano"
+    id={2}
+    img="270_crop_AMERICANO.png"
+    key="2"
+    name="Americano"
+    price={60000}
+  />
+  <Product
+    description="Espresso"
+    id={3}
+    img="270_crop_ESPRESSO.png"
+    key="3"
+    name="Espresso"
+    price={60000}
+  />
+  <Product
+    description="Caramel Macchiato"
+    id={4}
+    img="270_crop_CARAMEL-MACCHIATO.png"
+    key="4"
+    name="Caramel Macchiato"
+    price={60000}
   />
 </Container>
 `;

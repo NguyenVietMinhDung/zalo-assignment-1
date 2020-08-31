@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchBox /> renders correctly 1`] = `
+<div
+  className="search-box"
+>
+  <div
+    className="search-box__search-icon"
+  >
+    <i
+      className="lni lni-16 lni-search-alt"
+    />
+  </div>
+  <input
+    placeholder="Tìm kiếm tên sản phẩm"
+    type="text"
+  />
+</div>
+`;

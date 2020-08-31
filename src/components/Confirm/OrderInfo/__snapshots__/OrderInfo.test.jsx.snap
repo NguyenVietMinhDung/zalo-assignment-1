@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderInfo /> renders correctly 1`] = `
+<div
+  className="order-info"
+>
+  <Container
+    className="order-info__container"
+    component="div"
+    fluid={false}
+    lg={false}
+    md={false}
+    sm={false}
+    style={Object {}}
+    xl={false}
+    xs={false}
+    xxl={false}
+  >
+    <Row
+      align="normal"
+      component="div"
+      debug={false}
+      gutterWidth={null}
+      justify="start"
+      nogutter={false}
+      nowrap={false}
+      style={Object {}}
+    >
+      <Col
+        component="div"
+        debug={false}
+        lg={null}
+        md={null}
+        offset={Object {}}
+        pull={Object {}}
+        push={Object {}}
+        sm={null}
+        style={Object {}}
+        width={null}
+        xl={null}
+        xs={12}
+        xxl={null}
+      >
+        <h3>
+          Thông tin đơn hàng
+        </h3>
+      </Col>
+    </Row>
+    <Product
+      description="Note - This text is not longer than 1 line"
+      editable={true}
+      id={0}
+      img="270_crop_LATTE.png"
+      key="0"
+      name="Latte - This is a long text - Please use truncate the text if it is longer than 2 lines"
+      price={99000}
+      quantity={2}
+    />
+    <Product
+      description="Cappuccino"
+      editable={true}
+      id={1}
+      img="270_crop_CAPPUCINO.png"
+      key="1"
+      name="Cappuccino"
+      price={39000}
+      quantity={1}
+    />
+    <Row
+      align="normal"
+      className="order-info__cost"
+      component="div"
+      debug={false}
+      gutterWidth={null}
+      justify="start"
+      nogutter={false}
+      nowrap={false}
+      style={Object {}}
+    >
+      <Col
+        component="div"
+        debug={false}
+        lg={null}
+        md={null}
+        offset={Object {}}
+        pull={Object {}}
+        push={Object {}}
+        sm={null}
+        style={Object {}}
+        width={null}
+        xl={null}
+        xs={6}
+        xxl={null}
+      >
+        Tạm tính
+      </Col>
+      <Col
+        component="div"
+        debug={false}
+        lg={null}
+        md={null}
+        offset={Object {}}
+        pull={Object {}}
+        push={Object {}}
+        sm={null}
+        style={Object {}}
+        width={null}
+        xl={null}
+        xs={6}
+        xxl={null}
+      >
+        117.000đ
+      </Col>
+    </Row>
+    <Row
+      align="normal"
+      className="order-info__cost"
+      component="div"
+      debug={false}
+      gutterWidth={null}
+      justify="start"
+      nogutter={false}
+      nowrap={false}
+      style={Object {}}
+    >
+      <Col
+        component="div"
+        debug={false}
+        lg={null}
+        md={null}
+        offset={Object {}}
+        pull={Object {}}
+        push={Object {}}
+        sm={null}
+        style={Object {}}
+        width={null}
+        xl={null}
+        xs={6}
+        xxl={null}
+      >
+        Mã giảm giá
+      </Col>
+      <Col
+        className="order-info__cost__discount-value"
+        component="div"
+        debug={false}
+        lg={null}
+        md={null}
+        offset={Object {}}
+        pull={Object {}}
+        push={Object {}}
+        sm={null}
+        style={Object {}}
+        width={null}
+        xl={null}
+        xs={6}
+        xxl={null}
+      >
+        -10.000đ
+      </Col>
+    </Row>
+    <Row
+      align="normal"
+      className="order-info__cost"
+      component="div"
+      debug={false}
+      gutterWidth={null}
+      justify="start"
+      nogutter={false}
+      nowrap={false}
+      style={Object {}}
+    >
+      <Col
+        component="div"
+        debug={false}
+        lg={null}
+        md={null}
+        offset={Object {}}
+        pull={Object {}}
+        push={Object {}}
+        sm={null}
+        style={Object {}}
+        width={null}
+        xl={null}
+        xs={6}
+        xxl={null}
+      >
+        Tổng tiền
+      </Col>
+      <Col
+        className="order-info__cost__total-value"
+        component="div"
+        debug={false}
+        lg={null}
+        md={null}
+        offset={Object {}}
+        pull={Object {}}
+        push={Object {}}
+        sm={null}
+        style={Object {}}
+        width={null}
+        xl={null}
+        xs={6}
+        xxl={null}
+      >
+        107.000đ
+      </Col>
+    </Row>
+  </Container>
+</div>
+`;

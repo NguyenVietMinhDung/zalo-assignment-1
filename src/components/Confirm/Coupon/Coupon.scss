@@ -1,0 +1,61 @@
+@import '../../../styles/variables';
+
+.coupon {
+	display: flex;
+
+	flex-direction: column;
+
+	margin-bottom: 8px;
+
+	padding-bottom: 15px;
+
+	background-color: white;
+
+	&__title {
+		font-size: 12px;
+		font-weight: 500;
+	}
+
+	&__content {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		&__container {
+			display: flex;
+
+			width: 400px;
+			max-width: 100vw;
+			padding: 5px 20px;
+
+			border: 1px solid $dark-white-smoke;
+			border-radius: 50px;
+			align-items: center;
+			justify-content: space-between;
+		}
+
+		&__code {
+			i:first-child {
+				margin-right: 5px;
+
+				color: $light-blue;
+			}
+
+			i:last-child {
+				margin-left: 5px;
+
+				color: green;
+			}
+		}
+
+		&__btn {
+			padding: 5px 20px;
+
+			cursor: pointer;
+
+			color: white;
+			border-radius: 50px;
+			background-color: $light-blue;
+		}
+	}
+}

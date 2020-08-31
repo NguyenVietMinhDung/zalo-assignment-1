@@ -5,70 +5,81 @@ exports[`<Categories /> renders correctly 1`] = `
   className="categories"
 >
   <Category
-    id="other"
+    id="coffee"
     items={
       Array [
         Object {
+          "description": "Note - This text is not longer than 1 line",
           "id": 0,
-          "img": "270_crop_PHININOX.png",
-          "name": Object {
-            "en": "Phin Inox",
-            "vi": "Phin Inox",
-          },
-          "price": 80000,
+          "img": "270_crop_LATTE.png",
+          "name": "Latte - This is a long text - Please use truncate the text if it is longer than 2 lines",
+          "oldPrice": 90000,
+          "price": 99000,
         },
         Object {
+          "description": "Cappuccino",
           "id": 1,
-          "img": "270_crop_LYSU.png",
-          "name": Object {
-            "en": "Mosaic Mug",
-            "vi": "Ly Sứ Mosaic",
-          },
-          "price": 29000,
+          "img": "270_crop_CAPPUCINO.png",
+          "name": "Cappuccino",
+          "oldPrice": 49000,
+          "price": 39000,
+        },
+        Object {
+          "description": "Americano",
+          "id": 2,
+          "img": "270_crop_AMERICANO.png",
+          "name": "Americano",
+          "price": 60000,
+        },
+        Object {
+          "description": "Espresso",
+          "id": 3,
+          "img": "270_crop_ESPRESSO.png",
+          "name": "Espresso",
+          "price": 60000,
+        },
+        Object {
+          "description": "Caramel Macchiato",
+          "id": 4,
+          "img": "270_crop_CARAMEL-MACCHIATO.png",
+          "name": "Caramel Macchiato",
+          "price": 60000,
         },
       ]
     }
-    key="other"
-    name="Khác"
+    key="coffee"
+    name="Cà Phê"
   />
   <Category
     id="bread"
     items={
       Array [
         Object {
+          "description": "Pork Meatball",
           "id": 0,
           "img": "270_crop_BMXIUMAI.png",
-          "name": Object {
-            "en": "Pork Meatball",
-            "vi": "Xíu Mại",
-          },
+          "name": "Xíu Mại",
           "price": 19000,
         },
         Object {
+          "description": "Roast Pork & Pork Sausage",
           "id": 1,
           "img": "270_crop_BMCHALUAXAXIU.png",
-          "name": Object {
-            "en": "Roast Pork & Pork Sausage",
-            "vi": "Chả Lụa Xá Xíu",
-          },
+          "name": "Chả Lụa Xá Xíu",
           "price": 19000,
         },
         Object {
+          "description": "Roast Chicken",
           "id": 2,
           "img": "270_crop_BMGAXE.png",
-          "name": Object {
-            "en": "Roast Chicken",
-            "vi": "Gà Xé Nước Tương",
-          },
+          "name": "Gà Xé Nước Tương",
           "price": 19000,
         },
         Object {
+          "description": "Grilled Pork",
           "id": 3,
           "img": "270_crop_BMTHITNUONG.png",
-          "name": Object {
-            "en": "Grilled Pork",
-            "vi": "Thịt Nướng",
-          },
+          "name": "Thịt Nướng",
           "price": 19000,
         },
       ]
@@ -81,30 +92,24 @@ exports[`<Categories /> renders correctly 1`] = `
     items={
       Array [
         Object {
+          "description": "Cocoa Mousse Cake",
           "id": 0,
           "img": "270_crop_MOUSSECACAO.png",
-          "name": Object {
-            "en": "Cocoa Mousse Cake",
-            "vi": "Bánh Mousse Cacao",
-          },
+          "name": "Bánh Mousse Cacao",
           "price": 29000,
         },
         Object {
+          "description": "Peach Mousse Cake",
           "id": 1,
           "img": "270_crop_MOUSSEDAO.png",
-          "name": Object {
-            "en": "Peach Mousse Cake",
-            "vi": "Bánh Mousse Đào",
-          },
+          "name": "Bánh Mousse Đào",
           "price": 29000,
         },
         Object {
+          "description": "Highlands Chocolate Bomb",
           "id": 2,
           "img": "270_crop_SOCOLAHL.png",
-          "name": Object {
-            "en": "Highlands Chocolate Bomb",
-            "vi": "Bánh Sô-cô-la Highlands",
-          },
+          "name": "Bánh Sô-cô-la Highlands",
           "price": 29000,
         },
       ]
@@ -113,103 +118,64 @@ exports[`<Categories /> renders correctly 1`] = `
     name="Bánh Ngọt"
   />
   <Category
-    id="coffee"
-    items={
-      Array [
-        Object {
-          "id": 0,
-          "img": "270_crop_LATTE.png",
-          "name": Object {
-            "en": "Latte",
-            "vi": "Latte",
-          },
-          "price": 60000,
-        },
-        Object {
-          "id": 1,
-          "img": "270_crop_CAPPUCINO.png",
-          "name": Object {
-            "en": "Cappuccino",
-            "vi": "Cappuccino",
-          },
-          "price": 60000,
-        },
-        Object {
-          "id": 2,
-          "img": "270_crop_AMERICANO.png",
-          "name": Object {
-            "en": "Americano",
-            "vi": "Americano",
-          },
-          "price": 60000,
-        },
-        Object {
-          "id": 3,
-          "img": "270_crop_ESPRESSO.png",
-          "name": Object {
-            "en": "Espresso",
-            "vi": "Espresso",
-          },
-          "price": 60000,
-        },
-        Object {
-          "id": 4,
-          "img": "270_crop_CARAMEL-MACCHIATO.png",
-          "name": Object {
-            "en": "Caramel Macchiato",
-            "vi": "Caramel Macchiato",
-          },
-          "price": 60000,
-        },
-      ]
-    }
-    key="coffee"
-    name="Cà Phê Đóng Gói"
-  />
-  <Category
     id="Tea"
     items={
       Array [
         Object {
+          "description": "Lychee Tea",
           "id": 0,
           "img": "270_crop_TRATHACHVAI_1.png",
-          "name": Object {
-            "en": "Lychee Tea",
-            "vi": "Trà Thạch Vãi",
-          },
+          "name": "Trà Thạch Vãi",
           "price": 39000,
         },
         Object {
+          "description": "Peach Jelly Tea",
           "id": 1,
           "img": "270_crop_TRATHACHDAO.png",
-          "name": Object {
-            "en": "Peach Jelly Tea",
-            "vi": "Trà Thạch Đào",
-          },
+          "name": "Trà Thạch Đào",
           "price": 39000,
         },
         Object {
+          "description": "Peach Lemongrass Tea",
           "id": 2,
           "img": "270_crop_TRATHANHDAO.png",
-          "name": Object {
-            "en": "Peach Lemongrass Tea",
-            "vi": "Trà Thanh Đào",
-          },
+          "name": "Trà Thanh Đào",
           "price": 39000,
         },
         Object {
+          "description": "Golden Lotus Tea",
           "id": 3,
           "img": "270_crop_TRASENVANG.png",
-          "name": Object {
-            "en": "Golden Lotus Tea",
-            "vi": "Trà Sen Vàng",
-          },
+          "name": "Trà Sen Vàng",
           "price": 39000,
         },
       ]
     }
     key="Tea"
     name="Trà"
+  />
+  <Category
+    id="other"
+    items={
+      Array [
+        Object {
+          "description": "Phin Inox",
+          "id": 0,
+          "img": "270_crop_PHININOX.png",
+          "name": "Phin Inox",
+          "price": 80000,
+        },
+        Object {
+          "description": "Mosaic Mug",
+          "id": 1,
+          "img": "270_crop_LYSU.png",
+          "name": "Ly Sứ Mosaic",
+          "price": 29000,
+        },
+      ]
+    }
+    key="other"
+    name="Khác"
   />
 </div>
 `;

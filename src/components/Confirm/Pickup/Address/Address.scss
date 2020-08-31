@@ -1,0 +1,43 @@
+@import '../../../../styles/variables';
+
+.address {
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+	border-bottom: 1px solid $white-smoke;
+
+	img {
+		width: 100%;
+
+		border-radius: 10px;
+		background-color: $white-smoke;
+	}
+
+	&__name {
+		display: flex;
+
+		margin-bottom: 5px;
+
+		div:first-child {
+			flex: 1;
+
+			font-weight: bold;
+		}
+
+		div:last-child {
+			cursor: pointer;
+
+			color: $light-sky-blue;
+
+			font-size: 12px;
+			font-weight: 500;
+		}
+	}
+
+	&__description {
+		opacity: 0.5;
+
+		font-size: 12px;
+		font-weight: 500;
+	}
+}

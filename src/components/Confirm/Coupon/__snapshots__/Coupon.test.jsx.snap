@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Coupon /> renders correctly 1`] = `
+<Container
+  component="div"
+  fluid={false}
+  lg={false}
+  md={false}
+  sm={false}
+  style={Object {}}
+  xl={false}
+  xs={false}
+  xxl={false}
+>
+  <Row
+    align="normal"
+    className="coupon"
+    component="div"
+    debug={false}
+    gutterWidth={null}
+    justify="start"
+    nogutter={false}
+    nowrap={false}
+    style={Object {}}
+  >
+    <Col
+      className="coupon__title"
+      component="div"
+      debug={false}
+      lg={null}
+      md={null}
+      offset={Object {}}
+      pull={Object {}}
+      push={Object {}}
+      sm={null}
+      style={Object {}}
+      width={null}
+      xl={null}
+      xs={12}
+      xxl={null}
+    >
+      <p>
+        Thêm mã giảm giá
+      </p>
+    </Col>
+    <Col
+      className="coupon__content"
+      component="div"
+      debug={false}
+      lg={4}
+      md={6}
+      offset={Object {}}
+      pull={Object {}}
+      push={Object {}}
+      sm={null}
+      style={Object {}}
+      width={null}
+      xl={null}
+      xs={12}
+      xxl={null}
+    >
+      <div
+        className="coupon__content__container"
+      >
+        <div
+          className="coupon__content__code"
+        >
+          <i
+            className="lni lni-16 lni-gift"
+          />
+          <span>
+            VNGTHANG7
+          </span>
+          <i
+            className="lni lni-16 lni-checkmark-circle"
+          />
+        </div>
+        <div
+          className="coupon__content__btn"
+        >
+          ÁP DỤNG
+        </div>
+      </div>
+    </Col>
+  </Row>
+</Container>
+`;

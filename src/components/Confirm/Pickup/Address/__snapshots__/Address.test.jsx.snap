@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Address /> renders correctly 1`] = `
+<Row
+  align="normal"
+  className="address"
+  component="div"
+  debug={false}
+  gutterWidth={null}
+  justify="start"
+  nogutter={false}
+  nowrap={false}
+  style={Object {}}
+>
+  <Col
+    component="div"
+    debug={false}
+    lg={null}
+    md={null}
+    offset={Object {}}
+    pull={Object {}}
+    push={Object {}}
+    sm={null}
+    style={Object {}}
+    width={null}
+    xl={null}
+    xs={3}
+    xxl={null}
+  >
+    <img
+      alt=""
+      src="test-file-stub"
+    />
+  </Col>
+  <Col
+    component="div"
+    debug={false}
+    lg={null}
+    md={null}
+    offset={Object {}}
+    pull={Object {}}
+    push={Object {}}
+    sm={null}
+    style={Object {}}
+    width={null}
+    xl={null}
+    xs={9}
+    xxl={null}
+  >
+    <div
+      className="address__name"
+    >
+      <div>
+        Highlands Coffee - VNG campus
+      </div>
+      <div>
+        Thay đổi
+      </div>
+    </div>
+    <div
+      className="address__description"
+    >
+      Z06 Đường số 13, KCX Tân Thuận, P.Tân Thuận Đông, Quận 7
+    </div>
+  </Col>
+</Row>
+`;

@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pickup /> renders correctly 1`] = `
+<Container
+  component="div"
+  fluid={false}
+  lg={false}
+  md={false}
+  sm={false}
+  style={Object {}}
+  xl={false}
+  xs={false}
+  xxl={false}
+>
+  <Row
+    align="normal"
+    className="pickup"
+    component="div"
+    debug={false}
+    gutterWidth={null}
+    justify="start"
+    nogutter={false}
+    nowrap={false}
+    style={Object {}}
+  >
+    <Col
+      component="div"
+      debug={false}
+      lg={null}
+      md={null}
+      offset={Object {}}
+      pull={Object {}}
+      push={Object {}}
+      sm={null}
+      style={Object {}}
+      width={null}
+      xl={null}
+      xs={12}
+      xxl={null}
+    >
+      <h3>
+        Tự đến lấy
+      </h3>
+    </Col>
+    <Col
+      component="div"
+      debug={false}
+      lg={null}
+      md={null}
+      offset={Object {}}
+      pull={Object {}}
+      push={Object {}}
+      sm={null}
+      style={Object {}}
+      width={null}
+      xl={null}
+      xs={12}
+      xxl={null}
+    >
+      <Address />
+    </Col>
+    <Col
+      component="div"
+      debug={false}
+      lg={null}
+      md={null}
+      offset={Object {}}
+      pull={Object {}}
+      push={Object {}}
+      sm={null}
+      style={Object {}}
+      width={null}
+      xl={null}
+      xs={12}
+      xxl={null}
+    >
+      <Timer />
+    </Col>
+    <Col
+      component="div"
+      debug={false}
+      lg={null}
+      md={null}
+      offset={Object {}}
+      pull={Object {}}
+      push={Object {}}
+      sm={null}
+      style={Object {}}
+      width={null}
+      xl={null}
+      xs={12}
+      xxl={null}
+    >
+      <Note />
+    </Col>
+  </Row>
+</Container>
+`;

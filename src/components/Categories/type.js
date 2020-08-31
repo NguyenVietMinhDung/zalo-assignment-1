@@ -1,13 +1,12 @@
-export type Name = {
-  vi: string,
-  en: string,
-};
-
 export type Product = {
   id: ?string,
   price: number,
-  name: Name,
+  oldPrice: ?number,
+  name: string,
+  description: string,
   img: string,
+  editable: ?boolean,
+  quantity: ?number,
 };
 
 export type Category = {

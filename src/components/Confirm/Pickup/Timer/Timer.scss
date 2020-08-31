@@ -1,0 +1,28 @@
+@import '../../../../styles/variables';
+
+.time {
+	display: flex;
+
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+	border-bottom: 1px solid $white-smoke;
+
+	&__icon {
+		margin-right: 5px;
+
+		i {
+			opacity: 0.2;
+
+			font-weight: bold;
+		}
+	}
+
+	&__value {
+		flex: 1;
+	}
+
+	&__modify-btn {
+		cursor: pointer;
+	}
+}

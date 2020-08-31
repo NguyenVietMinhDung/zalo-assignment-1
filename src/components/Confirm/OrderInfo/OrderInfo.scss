@@ -1,0 +1,38 @@
+@import '../../../styles/variables';
+
+.order-info {
+	background-color: $white-smoke;
+
+	&__container {
+		display: flex;
+
+		flex-direction: column;
+
+		margin-bottom: 8px;
+
+		background-color: white;
+	}
+
+	&__cost {
+		div:last-child {
+			text-align: right;
+		}
+
+		padding-top: 15px;
+		padding-bottom: 15px;
+
+		border-bottom: 1px solid $white-smoke;
+
+		font-size: 12px;
+		font-weight: 500;
+
+		&__discount-value {
+			color: green;
+		}
+
+		&__total-value {
+			font-size: 16px;
+			font-weight: 500;
+		}
+	}
+}

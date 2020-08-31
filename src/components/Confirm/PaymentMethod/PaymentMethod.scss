@@ -1,0 +1,54 @@
+@import '../../../styles/variables';
+
+.payment-method {
+	display: flex;
+
+	flex-direction: column;
+
+	margin-bottom: 8px;
+
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+	background-color: white;
+
+	&__title {
+		display: flex;
+
+		font-size: 12px;
+		font-weight: 500;
+		align-items: center;
+		justify-content: center;
+
+		span {
+			opacity: 0.5;
+		}
+
+		img {
+			width: 40px;
+		}
+	}
+
+	&__btn-container {
+		display: flex;
+
+		padding: 10px 0;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__btn {
+		width: 400px;
+		max-width: 100vw;
+		padding: 10px 20px;
+
+		cursor: pointer;
+		text-align: center;
+
+		color: white;
+		border-radius: 50px;
+		background-color: $light-blue;
+
+		font-weight: 500;
+	}
+}

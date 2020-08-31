@@ -2,4 +2,8 @@
 
 .categories {
 	background-color: $white-smoke;
+
+	div:last-child {
+		margin-bottom: 0;
+	}
 }
